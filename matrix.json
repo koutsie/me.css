@@ -1,0 +1,20 @@
+{
+        "name": "matrix.me.css",
+        "is_dark": true,
+        "colors": {
+          "accent-color": "#1c1b22",
+          "primary-color": "#1c1b22",
+          "warning-color": "#1c1b22",
+          "sidebar-color": "#1c1b22",
+          "roomlist-background-color": "#2b2a33",
+          "roomlist-text-color": "#eeeeee",
+          "roomlist-text-secondary-color": "#eeeeee",
+          "roomlist-highlights-color": "#00000030",
+          "roomlist-separator-color": "#00000000",
+          "timeline-background-color": "#2b2a33",
+          "timeline-text-color": "#eeeeee",
+          "timeline-text-secondary-color": "#dddddd",
+          "timeline-highlights-color": "#00000030",
+          "reaction-row-button-selected-bg-color": "#b9bbbe"
+        }
+}
