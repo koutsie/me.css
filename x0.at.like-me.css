@@ -1,0 +1,27 @@
+@-moz-document domain("x0.at") {
+      /* unvisited link */
+      a:link {
+      	color: #ff6400;
+      }
+      /* visited link */
+      a:visited {
+      	color: #f70;
+      }
+      /* mouse over link */
+      a:hover {
+      	color: #07ff00;
+      }
+      /* selected link */
+      a:active {
+      	color: #f70;
+      }
+      * {
+      	background-color: #1c1b22;
+      	color: white;
+      }
+
+      input {
+      	border-radius: 5px;
+      	color: white;
+      }
+}
