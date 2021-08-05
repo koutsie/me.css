@@ -1,0 +1,148 @@
+@-moz-document domain("www.youtube.com") {
+.video-extras-sparkbar-likes {
+	background: #ff7a00;
+	height: 5px
+}
+.video-extras-sparkbar-dislikes {
+	background: #fff;
+	height: 5px
+}
+.video-extras-sparkbars {
+	height: 5px
+}
+.like-button-renderer-like-button {
+	filter: hue-rotate(274deg)
+}
+.like-button-renderer-dislike-button {
+	filter: hue-rotate(133deg)
+}
+.comment-renderer-like-count {
+	color: #ff7a00;
+	font-weight: 500
+}
+.sprite-like {
+	filter: hue-rotate(274deg)
+}
+.sprite-dislike {
+	filter: hue-rotate(133deg)brightness(0.7)
+}
+#like-bar.ytd-sentiment-bar-renderer {
+	background: #ff7a00;
+	height: 5px
+}
+div#container.ytd-sentiment-bar-renderer {
+	background: #fff;
+	height: 5px
+}
+#vote-count {
+	color: #ff7a00;
+	font-weight: 500
+}
+
+tp-yt-paper-button.ytd-subscribe-button-renderer {
+	background-color: #ff7a00;
+	font-weight: 500;
+	font-family: monospace, monospace;
+}
+
+tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] yt-formatted-string.ytd-subscribe-button-renderer {
+	color: #ff7a00;
+	font-weight: 500;
+	font-family: monospace, monospace;
+}
+
+.video-extras-sparkbar-likes {
+	background-color: #fff;
+}
+
+
+ytd-subscription-notification-toggle-button-renderer #button.ytd-subscription-notification-toggle-button-renderer {
+	color: #ff7a00;
+	font-weight: 500;
+	font-family: monospace, monospace;
+}
+
+div#container.style-scope.ytd-masthead,
+#chips.yt-chip-cloud-renderer,
+ytd-browse.style-scope.ytd-page-manager,
+div#sections.style-scope.ytd-guide-renderer,
+div#footer.style-scope.ytd-guide-renderer,
+div#header.style-scope.ytd-multi-page-menu-renderer,
+ytd-active-account-header-renderer.style-scope.ytd-multi-page-menu-renderer,
+ytd-simple-menu-header-renderer.style-scope.ytd-multi-page-menu-renderer,
+ytd-multi-page-menu-renderer.dropdown-content.style-scope.ytd-popup-container,
+div#sections.style-scope.ytd-multi-page-menu-renderer,
+ytd-post-renderer.style-scope.yt-horizontal-list-renderer,
+div#columns.style-scope.ytd-watch-flexy,
+ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton,
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse,
+div#header.style-scope.ytd-app,
+.header-bar,
+.scbrr-tabs,
+lazy-list,
+.menu-content,
+ytd-app,
+ytd-mini-guide-renderer.ytd-app,
+.yt-simple-endpoint:hover,
+a.ytd-mini-guide-entry-renderer,
+scrollbar-color,
+ytd-c4-tabbed-header-renderer.grid-6-columns #channel-header.ytd-c4-tabbed-header-renderer,
+#tabs-inner-container.ytd-c4-tabbed-header-renderer,
+.button,
+.logo-icon,
+.ytd-popup-container {
+	background: #1c1b22;
+	color: white;
+}
+div#container.style-scope.ytd-masthead,
+#chips.yt-chip-cloud-renderer,
+ytd-browse.style-scope.ytd-page-manager,
+div#sections.style-scope.ytd-guide-renderer,
+div#footer.style-scope.ytd-guide-renderer,
+div#header.style-scope.ytd-multi-page-menu-renderer,
+ytd-active-account-header-renderer.style-scope.ytd-multi-page-menu-renderer,
+ytd-simple-menu-header-renderer.style-scope.ytd-multi-page-menu-renderer,
+ytd-multi-page-menu-renderer.dropdown-content.style-scope.ytd-popup-container,
+div#sections.style-scope.ytd-multi-page-menu-renderer,
+ytd-post-renderer.style-scope.yt-horizontal-list-renderer,
+div#columns.style-scope.ytd-watch-flexy,
+ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton,
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse,
+div#header.style-scope.ytd-app,
+.header-bar,
+.scbrr-tabs,
+lazy-list,
+.style-scope ytd-section-list-renderer,
+ytd-alert-with-button-renderer[is-displayed],
+.ytd-playlist-video-renderer,
+ytd-playlist-video-renderer[is-editable][can-reorder][persistent-drag-handle],
+.menu-content {
+	background: #1c1b22;
+}
+.scbrr-tabs,
+lazy-list,
+.menu-content {
+	color: white;
+}
+yt-chip-cloud-renderer,
+.style-scope ytd-feed-filter-chip-bar-renderer,
+.style-scope ytd-rich-item-renderer {
+	display: none;
+}
+
+a.yt-simple-endpoint.yt-formatted-string,
+.ytd-channel-about-metadata-renderer {
+	font-weight: 500;
+	font-family: monospace, monospace;
+}
+
+#text.ytd-channel-name,
+#subscriber-count {
+	font-family: monospace, monospace;
+	font-weight: 1000;
+}
+#avatar {
+	margin: 2px 0 0 2px;
+	box-shadow: 0 0 0 2px #fff;
+}
+}
