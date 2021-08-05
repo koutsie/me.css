@@ -116,6 +116,7 @@ lazy-list,
 ytd-alert-with-button-renderer[is-displayed],
 .ytd-playlist-video-renderer,
 ytd-playlist-video-renderer[is-editable][can-reorder][persistent-drag-handle],
+.playlist-items.ytd-playlist-panel-renderer,
 .menu-content {
 	background: #1c1b22;
 }
@@ -129,6 +130,16 @@ yt-chip-cloud-renderer,
 .style-scope ytd-rich-item-renderer {
 	display: none;
 }
+
+.header.ytd-playlist-panel-renderer, 
+#TitleRestoredDiv
+{
+	background: #2b2a33;
+}
+
+      a:link {
+      	color: #ff6400;
+      }
 
 a.yt-simple-endpoint.yt-formatted-string,
 .ytd-channel-about-metadata-renderer {
