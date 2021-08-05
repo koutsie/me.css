@@ -2,19 +2,19 @@
         "name": "matrix.me.css",
         "is_dark": true,
         "colors": {
-          "accent-color": "#2b2a33",
-          "primary-color": "#2b2a33",
-          "warning-color": "#2b2a33",
+          "accent-color": "#F9A693",
+          "primary-color": "#1c1b22",
+          "warning-color": "#bd93f9",
           "sidebar-color": "#2b2a33",
-          "roomlist-background-color": "#1c1b22",
+          "roomlist-background-color": "#1e1f29",
           "roomlist-text-color": "#eeeeee",
           "roomlist-text-secondary-color": "#eeeeee",
-          "roomlist-highlights-color": "#00000030",
+          "roomlist-highlights-color": "#dc7f41",
           "roomlist-separator-color": "#00000000",
-          "timeline-background-color": "#1c1b22", 
+          "timeline-background-color": "#1e1f29",
           "timeline-text-color": "#eeeeee",
           "timeline-text-secondary-color": "#dddddd",
-          "timeline-highlights-color": "#00000030",
+          "timeline-highlights-color": "#dc7f41",
           "reaction-row-button-selected-bg-color": "#b9bbbe"
         }
 }
