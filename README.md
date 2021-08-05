@@ -1,5 +1,6 @@
 # me.css
 My userstyles for websites I use.
+Feel free to make pull requests, everything here is a mess and i do not css.
 
 
 
