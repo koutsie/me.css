@@ -2,7 +2,7 @@
         "name": "matrix.me.css",
         "is_dark": true,
         "colors": {
-          "accent-color": "",
+          "accent-color": "#2b2a33",
           "primary-color": "#2b2a33",
           "warning-color": "#2b2a33",
           "sidebar-color": "#2b2a33",
