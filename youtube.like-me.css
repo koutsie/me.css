@@ -16,10 +16,15 @@
 .like-button-renderer-dislike-button {
 	filter: hue-rotate(133deg)
 }
-.comment-renderer-like-count {
+.comment-renderer-like-count,
+.ytp-play-progress,
+.ytp-scrubber-pull-indicator,
+.ytp-scrubber-button{
 	color: #ff7a00;
-	font-weight: 500
+	font-weight: 500;
+    background-color: #ff7a00;
 }
+
 .sprite-like {
 	filter: hue-rotate(274deg)
 }
@@ -90,7 +95,7 @@ ytd-c4-tabbed-header-renderer.grid-6-columns #channel-header.ytd-c4-tabbed-heade
 #tabs-inner-container.ytd-c4-tabbed-header-renderer,
 .button,
 .logo-icon,
-.ytd-popup-container {
+.ytd-popup-container{
 	background: #1c1b22;
 	color: white;
 }
