@@ -39,9 +39,14 @@ div#container.ytd-sentiment-bar-renderer {
 	background: #fff;
 	height: 5px
 }
-#vote-count {
+#vote-count,
+.ytd-button-renderer{
 	color: #ff7a00;
 	font-weight: 500
+}
+.size-default {
+	color: white;
+	font-weight: lighter;
 }
 
 tp-yt-paper-button.ytd-subscribe-button-renderer {
@@ -57,7 +62,8 @@ tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] yt-formatted-string
 }
 
 .video-extras-sparkbar-likes,
-ytd-toggle-button-renderer.style-default-active[is-icon-button]{
+ytd-toggle-button-renderer.style-default-active[is-icon-button],
+.ytp-love-button{
 	color: #ff7a00;
 }
 
@@ -102,6 +108,7 @@ ytd-c4-tabbed-header-renderer.grid-6-columns #channel-header.ytd-c4-tabbed-heade
 .logo-icon,
 .ytd-popup-container,
 .playlist-items,
+.yt-notification-action-renderer,
 .ytd-playlist-panel* {
 	background: #1c1b22;
 	color: white;
