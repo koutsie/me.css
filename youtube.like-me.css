@@ -56,8 +56,13 @@ tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] yt-formatted-string
 	font-family: monospace, monospace;
 }
 
-.video-extras-sparkbar-likes {
-	background-color: #fff;
+.video-extras-sparkbar-likes,
+ytd-toggle-button-renderer.style-default-active[is-icon-button]{
+	color: #ff7a00;
+}
+
+ytd-sentiment-bar-renderer[activated] #like-bar.ytd-sentiment-bar-renderer {
+  background-color: #ff7a00;
 }
 
 
@@ -95,7 +100,9 @@ ytd-c4-tabbed-header-renderer.grid-6-columns #channel-header.ytd-c4-tabbed-heade
 #tabs-inner-container.ytd-c4-tabbed-header-renderer,
 .button,
 .logo-icon,
-.ytd-popup-container{
+.ytd-popup-container,
+.playlist-items,
+.ytd-playlist-panel* {
 	background: #1c1b22;
 	color: white;
 }
@@ -122,8 +129,14 @@ ytd-alert-with-button-renderer[is-displayed],
 .ytd-playlist-video-renderer,
 ytd-playlist-video-renderer[is-editable][can-reorder][persistent-drag-handle],
 .playlist-items.ytd-playlist-panel-renderer,
-.menu-content {
+.menu-content{
 	background: #1c1b22;
+}
+
+#items.yt-multi-page-menu-section-renderer > .yt-multi-page-menu-section-renderer:not([compact-link-style="compact-link-style-type-disclaimer"]).yt-multi-page-menu-section-renderer:hover {
+	background: #1c1b22;
+	margin: 1px 0 0 1px;
+	box-shadow: 2px 2px 0px 2px #2b2a33
 }
 .scbrr-tabs,
 lazy-list,
@@ -135,6 +148,7 @@ yt-chip-cloud-renderer,
 .style-scope ytd-rich-item-renderer {
 	display: none;
 }
+
 
 .header.ytd-playlist-panel-renderer, 
 #TitleRestoredDiv
@@ -156,6 +170,10 @@ a.yt-simple-endpoint.yt-formatted-string,
 #subscriber-count {
 	font-family: monospace, monospace;
 	font-weight: 1000;
+}
+.message.ytd-notification-renderer,
+.metadata.ytd-notification-renderer{
+	margin-left: 10px;
 }
 #avatar {
 	margin: 2px 0 0 2px;
