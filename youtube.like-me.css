@@ -1,4 +1,4 @@
-@-moz-document domain("www.youtube.com") {
+@-moz-document domain("www.youtube.com"), domain("studio.youtube.com") {
 .video-extras-sparkbar-likes {
 	background: #ff7a00;
 	height: 5px
@@ -19,10 +19,10 @@
 .comment-renderer-like-count,
 .ytp-play-progress,
 .ytp-scrubber-pull-indicator,
-.ytp-scrubber-button{
+.ytp-scrubber-button {
 	color: #ff7a00;
 	font-weight: 500;
-    background-color: #ff7a00;
+	background-color: #ff7a00;
 }
 
 .sprite-like {
@@ -40,7 +40,7 @@ div#container.ytd-sentiment-bar-renderer {
 	height: 5px
 }
 #vote-count,
-.ytd-button-renderer{
+.ytd-button-renderer {
 	color: #ff7a00;
 	font-weight: 500
 }
@@ -63,12 +63,12 @@ tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] yt-formatted-string
 
 .video-extras-sparkbar-likes,
 ytd-toggle-button-renderer.style-default-active[is-icon-button],
-.ytp-love-button{
+.ytp-love-button {
 	color: #ff7a00;
 }
 
 ytd-sentiment-bar-renderer[activated] #like-bar.ytd-sentiment-bar-renderer {
-  background-color: #ff7a00;
+	background-color: #ff7a00;
 }
 
 
@@ -136,7 +136,7 @@ ytd-alert-with-button-renderer[is-displayed],
 .ytd-playlist-video-renderer,
 ytd-playlist-video-renderer[is-editable][can-reorder][persistent-drag-handle],
 .playlist-items.ytd-playlist-panel-renderer,
-.menu-content{
+.menu-content {
 	background: #1c1b22;
 }
 
@@ -155,17 +155,15 @@ yt-chip-cloud-renderer,
 .style-scope ytd-rich-item-renderer {
 	display: none;
 }
-
-
-.header.ytd-playlist-panel-renderer, 
-#TitleRestoredDiv
-{
+.style-scope ytd-button-renderer style-default size-default,
+.header.ytd-playlist-panel-renderer,
+#TitleRestoredDiv {
 	background: #2b2a33;
 }
 
-      a:link {
-      	color: #ff6400;
-      }
+a:link {
+	color: #ff6400;
+}
 
 a.yt-simple-endpoint.yt-formatted-string,
 .ytd-channel-about-metadata-renderer {
@@ -179,11 +177,28 @@ a.yt-simple-endpoint.yt-formatted-string,
 	font-weight: 1000;
 }
 .message.ytd-notification-renderer,
-.metadata.ytd-notification-renderer{
+.metadata.ytd-notification-renderer {
 	margin-left: 10px;
 }
 #avatar {
 	margin: 2px 0 0 2px;
 	box-shadow: 0 0 0 2px #fff;
+}
+
+/* visited link */
+a:visited {
+	color: #f70 !important;
+}
+/* mouse over link */
+a:hover {
+	color: #07ff00;
+}
+/* selected link */
+a:active {
+	color: #00cbff;
+}
+input {
+	border-radius: 5px;
+	color: white;
 }
 }
