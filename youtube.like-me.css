@@ -114,6 +114,7 @@ ytd-c4-tabbed-header-renderer.grid-6-columns #channel-header.ytd-c4-tabbed-heade
 	color: white;
 }
 div#container.style-scope.ytd-masthead,
+ytd-merch-shelf-renderer,
 #chips.yt-chip-cloud-renderer,
 ytd-browse.style-scope.ytd-page-manager,
 div#sections.style-scope.ytd-guide-renderer,
