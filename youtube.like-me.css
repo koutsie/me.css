@@ -67,7 +67,7 @@ ytd-toggle-button-renderer.style-default-active[is-icon-button],
 	color: #ff7a00;
 }
 
-ytd-sentiment-bar-renderer[activated] #like-bar.ytd-sentiment-bar-renderer {
+ytd-sentiment-bar-renderer[activated] #like-bar.ytd-sentiment-bar-renderer, #YouTubeProgressBarPreserver-progress {
 	background-color: #ff7a00;
 }
 
