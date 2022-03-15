@@ -1,0 +1,25 @@
+@-moz-document domain("chat.the-sauna.icu") {
+.LeftPanel,
+.RightPanelView,
+.RoomDetailsView_label,
+.RoomDetailsView_rows,
+.hydrogen,
+.menu,
+.menu-item {
+	background-color: #141414;
+	color: white !important;
+}
+.middle-header {
+	background-color: #000000eb;
+}
+.Timeline {
+	background-color: #000;
+}
+.MessageComposer_input {
+	background-color: #000;
+}
+.MessageComposer_input > textarea {
+	background-color: #1c1c1c75;
+	color: white;
+}
+}
