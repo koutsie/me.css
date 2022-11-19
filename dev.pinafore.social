@@ -1,0 +1,15 @@
+@-moz-document domain("dev.pinafore.social") {
+main.infinite-scroll-page.svelte-fb8mj1,
+.timeline-home-page,
+#the-compose-box-input-home,
+.compose-box-button,
+.avatar,
+button,
+.poll {
+	border-radius: 15px !important;
+}
+.compose-box-button-halo-sticky.svelte-1gztkkv,
+.length-gauge {
+	background-color: transparent !important;
+}
+}
